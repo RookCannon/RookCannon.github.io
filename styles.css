@@ -1,1 +1,40 @@
+* {
 
+}
+
+#menu-icon {
+    max-width: 80%;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+h1{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    font-size: calc(20px + 3vw);
+}
+
+#dropdown{
+    width: 5%;
+    height: 100%;
+}
+
+.otherPagesButton {
+    width: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    background-color: red;
+    border: 1 px solid black;
+}
+
+.otherPagesContainer{
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: auto;
+}

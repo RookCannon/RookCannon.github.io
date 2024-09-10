@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>RookCannon's Website</title>
 </head>
+
 <body>
-  <div id="app">
-    <div id="menuBarContainer">
-        <div id="dropdown"></div>
-        <h1>RookCannon's Website</h1>
-    </div>
-    <div id="scrollablePage">
-        <div id="header">
-            <h2>Welcome to my website!</h2>
+    <div id="app">
+        <div id="menuBarContainer">
+            <h1>
+                <div id="dropdown"> <img id="menu-icon" src="menu-icon.webp" alt="Menu Button. Enables dropdown"></div>
+                RookCannon's Website
+            </h1>
         </div>
-        <div class="otherPagesContainer">
-            <div id="inProgressProjects" ><a href="currentProjects">current project</a>
+        <div id="scrollablePage">
+            <div id="header">
+                <h2>Welcome to my website!</h2>
             </div>
-            <div id="finishedProjects"></div>
-            <div id="aboutMe"></div>
-            <div></div>
+            <div class="otherPagesContainer">
+                <div class="otherPagesButton" id="inProgressProjects"><a href="currentProjects">current project</a>
+                </div>
+                <div class="otherPagesButton" id="finishedProjects"> finished projects</div>
+                <div class="otherPagesButton" id="aboutMe">about me</div>
+                <div class="otherPagesButton" id="contactMe">contact me</div>
+            </div>
         </div>
     </div>
-  </div>
 </body>
+
 </html>
